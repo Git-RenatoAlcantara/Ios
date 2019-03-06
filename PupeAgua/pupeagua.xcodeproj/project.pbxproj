@@ -13,7 +13,8 @@
 		CE431F0E222B436800939931 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE431F0C222B436800939931 /* Main.storyboard */; };
 		CE431F13222B436900939931 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE431F11222B436900939931 /* LaunchScreen.storyboard */; };
 		CE431F25222B4E5300939931 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE431F1D222B4D1F00939931 /* Roboto-Bold.ttf */; };
-		CE431F27222B54A400939931 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE431F26222B54A300939931 /* Assets.xcassets */; };
+		CE4C15A6222EFF91004A4263 /* PainelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C15A5222EFF91004A4263 /* PainelViewController.swift */; };
+		CE8D727D222EE76A00C9C82B /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8D727C222EE76A00C9C82B /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +35,8 @@
 		CE431F22222B4D2300939931 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
 		CE431F23222B4D2300939931 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		CE431F24222B4D2400939931 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
-		CE431F26222B54A300939931 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		CE4C15A5222EFF91004A4263 /* PainelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PainelViewController.swift; sourceTree = "<group>"; };
+		CE8D727C222EE76A00C9C82B /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,10 +73,11 @@
 				CE431F08222B436800939931 /* AppDelegate.swift */,
 				CE431F0A222B436800939931 /* ViewController.swift */,
 				CE1316F7222C47FF0011FCAF /* ViewControllerLogin.swift */,
+				CE4C15A5222EFF91004A4263 /* PainelViewController.swift */,
 				CE431F0C222B436800939931 /* Main.storyboard */,
-				CE431F26222B54A300939931 /* Assets.xcassets */,
 				CE431F11222B436900939931 /* LaunchScreen.storyboard */,
 				CE431F14222B436900939931 /* Info.plist */,
+				CE8D727C222EE76A00C9C82B /* Media.xcassets */,
 			);
 			path = pupeagua;
 			sourceTree = "<group>";
@@ -156,7 +159,7 @@
 			files = (
 				CE431F25222B4E5300939931 /* Roboto-Bold.ttf in Resources */,
 				CE431F13222B436900939931 /* LaunchScreen.storyboard in Resources */,
-				CE431F27222B54A400939931 /* Assets.xcassets in Resources */,
+				CE8D727D222EE76A00C9C82B /* Media.xcassets in Resources */,
 				CE431F0E222B436800939931 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -169,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE431F0B222B436800939931 /* ViewController.swift in Sources */,
+				CE4C15A6222EFF91004A4263 /* PainelViewController.swift in Sources */,
 				CE431F09222B436800939931 /* AppDelegate.swift in Sources */,
 				CE1316F8222C47FF0011FCAF /* ViewControllerLogin.swift in Sources */,
 			);

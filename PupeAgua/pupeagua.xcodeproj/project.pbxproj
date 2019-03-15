@@ -7,23 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE05D4BB2237FE2C00283CF3 /* CalcularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE05D4BA2237FE2C00283CF3 /* CalcularViewController.swift */; };
+		CE064071223B1817009DFE99 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE064070223B1817009DFE99 /* CadastroViewController.swift */; };
+		CE0D151C223885AA00430A5D /* Historico.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0D151B223885AA00430A5D /* Historico.swift */; };
+		CE0E4011223AD99D00FBC5DC /* ValidaLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0E4010223AD99D00FBC5DC /* ValidaLogin.swift */; };
+		CE0EF567223AA0B1007CFE4C /* HistoricoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EF566223AA0B1007CFE4C /* HistoricoViewController.swift */; };
+		CE0EF569223AA249007CFE4C /* HistoricoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EF568223AA249007CFE4C /* HistoricoTableViewCell.swift */; };
 		CE1316F8222C47FF0011FCAF /* ViewControllerLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1316F7222C47FF0011FCAF /* ViewControllerLogin.swift */; };
+		CE2E5B752232B4C200BB4A25 /* MenuPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2E5B742232B4C100BB4A25 /* MenuPopUpViewController.swift */; };
 		CE431F09222B436800939931 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE431F08222B436800939931 /* AppDelegate.swift */; };
 		CE431F0B222B436800939931 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE431F0A222B436800939931 /* ViewController.swift */; };
 		CE431F0E222B436800939931 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE431F0C222B436800939931 /* Main.storyboard */; };
-		CE431F13222B436900939931 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE431F11222B436900939931 /* LaunchScreen.storyboard */; };
 		CE431F25222B4E5300939931 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE431F1D222B4D1F00939931 /* Roboto-Bold.ttf */; };
 		CE4C15A6222EFF91004A4263 /* PainelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C15A5222EFF91004A4263 /* PainelViewController.swift */; };
 		CE8D727D222EE76A00C9C82B /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8D727C222EE76A00C9C82B /* Media.xcassets */; };
+		CEACF73E223AE29500DE08C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEACF73D223AE29500DE08C6 /* GoogleService-Info.plist */; };
+		EED39CD634D4CF1127EA72A6 /* Pods_pupeagua.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B898C41A359706D67566FC2 /* Pods_pupeagua.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B898C41A359706D67566FC2 /* Pods_pupeagua.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pupeagua.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D2F92A95909DE1D4BA4101E /* Pods-pupeagua.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pupeagua.release.xcconfig"; path = "Target Support Files/Pods-pupeagua/Pods-pupeagua.release.xcconfig"; sourceTree = "<group>"; };
+		817273C82279CC4A899B4BFD /* Pods-pupeagua.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pupeagua.debug.xcconfig"; path = "Target Support Files/Pods-pupeagua/Pods-pupeagua.debug.xcconfig"; sourceTree = "<group>"; };
+		CE05D4BA2237FE2C00283CF3 /* CalcularViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcularViewController.swift; sourceTree = "<group>"; };
+		CE064070223B1817009DFE99 /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
+		CE0D151B223885AA00430A5D /* Historico.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Historico.swift; sourceTree = "<group>"; };
+		CE0E4010223AD99D00FBC5DC /* ValidaLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidaLogin.swift; sourceTree = "<group>"; };
+		CE0EF566223AA0B1007CFE4C /* HistoricoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricoViewController.swift; sourceTree = "<group>"; };
+		CE0EF568223AA249007CFE4C /* HistoricoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricoTableViewCell.swift; sourceTree = "<group>"; };
 		CE1316F7222C47FF0011FCAF /* ViewControllerLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerLogin.swift; sourceTree = "<group>"; };
+		CE2E5B742232B4C100BB4A25 /* MenuPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPopUpViewController.swift; sourceTree = "<group>"; };
 		CE431F05222B436800939931 /* pupeagua.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pupeagua.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE431F08222B436800939931 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE431F0A222B436800939931 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE431F0D222B436800939931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CE431F12222B436900939931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE431F14222B436900939931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE431F1B222B4D1800939931 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
 		CE431F1C222B4D1900939931 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
@@ -37,6 +54,7 @@
 		CE431F24222B4D2400939931 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		CE4C15A5222EFF91004A4263 /* PainelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PainelViewController.swift; sourceTree = "<group>"; };
 		CE8D727C222EE76A00C9C82B /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		CEACF73D223AE29500DE08C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,17 +62,76 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EED39CD634D4CF1127EA72A6 /* Pods_pupeagua.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5669371202E1EFE8811310EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B898C41A359706D67566FC2 /* Pods_pupeagua.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		736F461DA6CBF34C58F6E247 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				817273C82279CC4A899B4BFD /* Pods-pupeagua.debug.xcconfig */,
+				3D2F92A95909DE1D4BA4101E /* Pods-pupeagua.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE0D15082238514B00430A5D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE05D4BA2237FE2C00283CF3 /* CalcularViewController.swift */,
+				CE431F0A222B436800939931 /* ViewController.swift */,
+				CE1316F7222C47FF0011FCAF /* ViewControllerLogin.swift */,
+				CE2E5B742232B4C100BB4A25 /* MenuPopUpViewController.swift */,
+				CE4C15A5222EFF91004A4263 /* PainelViewController.swift */,
+				CE0EF566223AA0B1007CFE4C /* HistoricoViewController.swift */,
+				CE064070223B1817009DFE99 /* CadastroViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE0D15092238515900430A5D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE0D151B223885AA00430A5D /* Historico.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE0D151822387EA400430A5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE431F0C222B436800939931 /* Main.storyboard */,
+				CE0EF568223AA249007CFE4C /* HistoricoTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE0E400D223AD13300FBC5DC /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				CE0E4010223AD99D00FBC5DC /* ValidaLogin.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		CE431EFC222B436800939931 = {
 			isa = PBXGroup;
 			children = (
 				CE431F07222B436800939931 /* pupeagua */,
 				CE431F06222B436800939931 /* Products */,
+				736F461DA6CBF34C58F6E247 /* Pods */,
+				5669371202E1EFE8811310EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,14 +146,14 @@
 		CE431F07222B436800939931 /* pupeagua */ = {
 			isa = PBXGroup;
 			children = (
-				CE431F1A222B4CD700939931 /* fonts */,
 				CE431F08222B436800939931 /* AppDelegate.swift */,
-				CE431F0A222B436800939931 /* ViewController.swift */,
-				CE1316F7222C47FF0011FCAF /* ViewControllerLogin.swift */,
-				CE4C15A5222EFF91004A4263 /* PainelViewController.swift */,
-				CE431F0C222B436800939931 /* Main.storyboard */,
-				CE431F11222B436900939931 /* LaunchScreen.storyboard */,
+				CE0E400D223AD13300FBC5DC /* Util */,
+				CE0D151822387EA400430A5D /* View */,
+				CE0D15092238515900430A5D /* Model */,
+				CE0D15082238514B00430A5D /* Controller */,
+				CE431F1A222B4CD700939931 /* fonts */,
 				CE431F14222B436900939931 /* Info.plist */,
+				CEACF73D223AE29500DE08C6 /* GoogleService-Info.plist */,
 				CE8D727C222EE76A00C9C82B /* Media.xcassets */,
 			);
 			path = pupeagua;
@@ -106,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE431F17222B436900939931 /* Build configuration list for PBXNativeTarget "pupeagua" */;
 			buildPhases = (
+				9B4B08ACD947FDCFC3B0CABE /* [CP] Check Pods Manifest.lock */,
 				CE431F01222B436800939931 /* Sources */,
 				CE431F02222B436800939931 /* Frameworks */,
 				CE431F03222B436800939931 /* Resources */,
+				993BB4A75B8E57F993CA47FC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,13 +237,66 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE431F25222B4E5300939931 /* Roboto-Bold.ttf in Resources */,
-				CE431F13222B436900939931 /* LaunchScreen.storyboard in Resources */,
+				CEACF73E223AE29500DE08C6 /* GoogleService-Info.plist in Resources */,
 				CE8D727D222EE76A00C9C82B /* Media.xcassets in Resources */,
 				CE431F0E222B436800939931 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		993BB4A75B8E57F993CA47FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pupeagua/Pods-pupeagua-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pupeagua/Pods-pupeagua-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B4B08ACD947FDCFC3B0CABE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pupeagua-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CE431F01222B436800939931 /* Sources */ = {
@@ -174,7 +306,14 @@
 				CE431F0B222B436800939931 /* ViewController.swift in Sources */,
 				CE4C15A6222EFF91004A4263 /* PainelViewController.swift in Sources */,
 				CE431F09222B436800939931 /* AppDelegate.swift in Sources */,
+				CE0EF567223AA0B1007CFE4C /* HistoricoViewController.swift in Sources */,
+				CE05D4BB2237FE2C00283CF3 /* CalcularViewController.swift in Sources */,
+				CE0EF569223AA249007CFE4C /* HistoricoTableViewCell.swift in Sources */,
+				CE0E4011223AD99D00FBC5DC /* ValidaLogin.swift in Sources */,
+				CE2E5B752232B4C200BB4A25 /* MenuPopUpViewController.swift in Sources */,
+				CE0D151C223885AA00430A5D /* Historico.swift in Sources */,
 				CE1316F8222C47FF0011FCAF /* ViewControllerLogin.swift in Sources */,
+				CE064071223B1817009DFE99 /* CadastroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,14 +326,6 @@
 				CE431F0D222B436800939931 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CE431F11222B436900939931 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE431F12222B436900939931 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -318,6 +449,7 @@
 		};
 		CE431F18222B436900939931 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 817273C82279CC4A899B4BFD /* Pods-pupeagua.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -326,7 +458,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.igrid.pupeagua;
+				PRODUCT_BUNDLE_IDENTIFIER = com.igrid.poupeagua;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -335,6 +467,7 @@
 		};
 		CE431F19222B436900939931 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D2F92A95909DE1D4BA4101E /* Pods-pupeagua.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -343,7 +476,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.igrid.pupeagua;
+				PRODUCT_BUNDLE_IDENTIFIER = com.igrid.poupeagua;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
